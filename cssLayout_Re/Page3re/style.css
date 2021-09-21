@@ -1,0 +1,77 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 30px;
+  color: red;
+}
+
+.flex-container {
+  display: flex;
+  width: 70%;
+  justify-content: left;
+  margin: 50px auto;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  margin-right: 45px;
+  margin-bottom: 45px;
+  box-shadow: 0px 6px 2px -1px rgba(0, 0, 0, 0.09);
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+.n1 {
+  border: 2px solid black;
+}
+.n2 {
+  border: 2px solid blue;
+}
+.n3 {
+  border: 2px solid blue;
+}
+.n4 {
+  border: 2px solid blue;
+}
+.n5 {
+  border: 2px solid black;
+}
+
+.gray {
+  top: 10px;
+  left: 150px;
+  background-color: gray;
+  z-index: 2;
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
+.robox {
+  border: 2px solid black;
+  top: 440px;
+  left: 800px;
+  z-index: 2;
+  background-color: white;
+  transform: rotate(-45deg);
+  position: absolute;
+}
