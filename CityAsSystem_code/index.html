@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
     </head>
 
     <body>
@@ -13,14 +14,100 @@
             </h1>
 
         </div>
+
+        <div class = "SecondPage">
+            <p>
+                this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. this is the intro. 
+            </p>>
+        </div>
+
+        <!-- <div class = "ThirdPage">
+            <div class = "left">
+                left
+
+            </div>
+
+            <div class = "right">
+                right
+            </div> -->
+
+
+        </div>
+
         <div class = "Hmap">
             <iframe 
             width='100%' 
             height='100%' 
-            src="https://api.mapbox.com/styles/v1/oneginx/ckvfqphwl32at14qrl3xnueqp.html?title=false&access_token=pk.eyJ1Ijoib25lZ2lueCIsImEiOiJja3Y3M3R6cmw5ZmwzMzFuemE2eWUzcTIwIn0.7F3P4Bx_blkUZY1ueCj5TA&zoomwheel=false#14.23/40.73689/-73.97504/0/6" 
-            title="heatMap" style="border:none;">
+            src="https://api.mapbox.com/styles/v1/oneginx/ckvfqphwl32at14qrl3xnueqp.html?title=false&access_token=pk.eyJ1Ijoib25lZ2lueCIsImEiOiJja3Y3M3R6cmw5ZmwzMzFuemE2eWUzcTIwIn0.7F3P4Bx_blkUZY1ueCj5TA&zoomwheel=false#11.27/40.7853/-73.9547/0/6" title="Monochrome" style="border:none;">
             </iframe>
         </div>
+
+        <div class = "FourthPage">
+            <div onclick="pop1()">
+                <img src="area1.png" alt="WashingtonHeights" width="450" height="450">
+            </div>
+  
+
+            <div onclick="pop2()">
+                <img src="area2.png" alt="EastHarlem" width="450" height="450">
+            </div>
+
+            <div onclick="pop3()">
+                <img src="area3.png" alt="UpperEast" width="450" height="450">
+                
+            </div>
+
+            <div onclick="pop4()">
+                <img src="area4.png" alt="MidtownWest" width="450" height="450">
+                
+            </div>
+
+            <div onclick="pop5()">
+                <img src="area5.png" alt="KipsBay" width="450" height="450">
+            </div>
+
+            <div onclick="pop6()">
+                <img src="area6.png" alt="Bowery-ChinaTown" width="450" height="450">
+            </div>
+        </div>
+
+        <div class="popPage1" id="popup1">
+            <p>Washington Heights</p>
+            <img src="area1.png" width = "400" height="400" style="top: 200px;left: 200px;">
+            <a href onclick = "close1(); return false">close</a>
+        </div>
+
+        <div class="popPage2" id="popup2">
+            <p>East Harlem</p>
+            <img src="area2.png" width = "400" height="400">
+            <a href onclick = "close2(); return false">close</a>
+        </div>
+
+        <div class="popPage3" id="popup3">
+            <p>Upper East</p>
+            <img src="area3.png" width = "400" height="400">
+            <a href onclick = "close3(); return false">close</a>
+        </div>
+
+        <div class="popPage4" id="popup4">
+            <p>Midtown West</p>
+            <img src="area4.png" width = "400" height="400">
+            <a href onclick = "close4(); return false">close</a>
+        </div>
+
+        <div class="popPage5" id="popup5">
+            <p>Kips Bay</p>
+            <img src="area5.png" width = "400" height="400">
+            <a href onclick = "close5(); return false">close</a>
+        </div>
+
+        <div class="popPage6" id="popup6">
+            <p>Bowery-China Town</p>
+            <img src="area6.png" width = "400" height="400">
+            <a href onclick = "close6(); return false">close</a>
+        </div>
+
+
 
     </body>
 

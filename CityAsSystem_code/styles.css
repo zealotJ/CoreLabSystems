@@ -4,7 +4,6 @@ html {
 
 body {
   margin: 0px auto;
-  width: 80%;
 }
 
 .FirstPage {
@@ -15,7 +14,69 @@ body {
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
   color: burlywood;
-  margin-top: 20%;
+  line-height: 100vh;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.SecondPage {
+  height: 100vh;
+}
+
+.SecondPage > p {
+  margin-left: 15%;
+  margin-right: 15%;
+  color: burlywood;
+  font-size: 20pt;
+}
+
+.ThirdPage {
+  height: 100vh;
+  line-height: 100vh;
+}
+
+.ThirdPage > div {
+  float: left;
+  width: 45%;
+  margin: 0px;
+  padding-left: 5%;
+}
+
+.FourthPage {
+  height: 100vh;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  margin: 100px auto;
+  flex-wrap: wrap;
+}
+
+.FourthPage > div {
+  margin-right: 45px;
+  cursor: pointer;
+}
+.FourthPage > div > img {
+  opacity: 0.6;
+}
+
+.FourthPage > div > img:hover {
+  opacity: 1;
+}
+.popPage1,
+.popPage2,
+.popPage3,
+.popPage4,
+.popPage5,
+.popPage6 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 100%;
+  padding: 50px;
+  background-color: burlywood;
+  visibility: hidden;
 }
 
 iframe {
@@ -28,4 +89,5 @@ iframe {
 }
 .Hmap {
   height: 100vh;
+  width: 99vw;
 }
